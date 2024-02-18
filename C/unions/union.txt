@@ -1,0 +1,17 @@
+
+
+Union is a user defined datatype that contains the group of variables of different datatypes under single name but the difference between structure and union is that all the members of union can store at the same memory location.
+
+only one member can store data at given instance.
+
+typedef is used to redefine a new name to data types.
+
+
+the difference between typedef and #define is that
+	#define will alias the values as well but typedef can alias only for datatypes.
+	preprocessor will interpret #define whereas compiler will interpret for typedef.
+	
+Anonymous unions/structures are also known as unnamed unions/structures as they don’t have names.
+
+
+ 

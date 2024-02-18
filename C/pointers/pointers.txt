@@ -1,0 +1,83 @@
+
+
+
+A pointer is a variable that stores the memory address of another variable as its value.
+
+
+we need to declare the same datatype for the pointer to which datatype we are pointing to. otherwise it will lead to data corruption.
+
+&-reference operator 
+we use & to access the memory location of a variable
+
+%p is used to print the address of a variable
+
+why pointers?
+
+
+	they are important because they allow us to manipulate data directly in the computers memory.
+	
+	(seek pointers.c program)
+
+	used mostly in linked lists in data strutures
+	
+	we can use dynamic memory allocation with pointers so we can allocate and manage the memory when needed.
+	
+	
+	
+*-dereferencing operator
+
+To get the value of the variable the pointer points to, by using the * operator
+
+
+the name of an array, is actually a pointer to the first element of the array.
+
+
+we usually declare structure outside main due to its global scope,reusability,code modularity(promotes cleaner and modular code structure).
+
+
+NUll pointers are those which are assigned NULL value to it.
+It is good practice to assign NULL value for those pointers which are currently not in use.
+
+
+
+
+
+void pointers also called as generic pointers as they can be typecasted to any type.
+
+
+
+
+
+
+wild pointers are those which are not initialized. they may point to some unknown memory location.
+
+these are very danger to use because
+
+// C program that demonstrated wild pointers
+int main()
+{
+	/* wild pointer */
+	int* p;
+	/* Some unknown memory location is being corrupted.
+	This should never be done. */
+	*p = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
